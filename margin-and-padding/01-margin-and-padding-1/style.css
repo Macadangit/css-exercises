@@ -1,21 +1,25 @@
 body {
   max-width: 600px;
-  margin: 0 auto;
+  margin: auto;
+  font-weight: 550;
 }
 
 .one {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 40px 30px;
+  margin: 20px 0px 16px -85px;
+  width: 700px;
+
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  width: 800px;
+  margin: 0px 0px 0px -105px;
 }
 
 .three {
@@ -23,6 +27,9 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 30px ;
+  margin: 50px 30px 0px 435px;
 }
+
+/* I intentionally didn't read the bottom part of the README and instead opted for creating it by
+sight. */
